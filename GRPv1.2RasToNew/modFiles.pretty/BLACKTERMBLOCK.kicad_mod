@@ -1,0 +1,132 @@
+(footprint "BLACKTERMBLOCK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "U$4"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b5e2c0fb-8ee3-41bd-8205-313d5efaa5a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BLACKTERMBLOCK"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33d81227-f895-4c7c-a184-0924ee7b87a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "909a4bc4-f624-4552-a009-06abe0817b78")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cab3ed1-dff4-4781-8727-51cee14f11f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b74c32dd-43d3-47a4-9cbf-af4b8e880cee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.3 -3.45)
+		(end 5.8 -3.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "426b8c8b-49f2-4e03-9536-0896a67c9d7a")
+	)
+	(fp_line
+		(start -2.3 3.45)
+		(end -2.3 -3.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "087e1f86-857e-490f-be56-3964199f35b8")
+	)
+	(fp_line
+		(start 5.8 -3.45)
+		(end 5.8 3.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "26d782ca-eaa4-44c8-9478-a9d4793d04c3")
+	)
+	(fp_line
+		(start 5.8 3.45)
+		(end -2.3 3.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "ae69b03c-8561-46b5-9bfd-300c5d284aaf")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "17b9a74a-70bb-4efd-ae3c-b54f16935ff3")
+	)
+	(pad "2" thru_hole roundrect
+		(at 3.5 0)
+		(size 2.3 2.3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "65d32046-1735-4936-b0c1-d09f7052fd34")
+	)
+)
