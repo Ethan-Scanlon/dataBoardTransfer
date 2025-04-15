@@ -1,4 +1,4 @@
-68039371070260
+116035751190078
 B2B-XH-A
 CONN_B2B-XH-A_JST
 
@@ -6,6 +6,13 @@ B2B-XH-A
 0
 2
 2
+B3B
+CONN_B3B-XH-A_JST
+
+B3B-XH-A 
+0
+3
+3
 CM4IO
 BarrelJack_Horizontal
 DC Barrel Jack
@@ -83,6 +90,13 @@ USB USB_B USB_micro USB_OTG
 0
 17
 6
+Capacitors
+C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
 ESP32S3N8R8
 ESP32-S3-DEVKITC-1-N8R8
 
@@ -97,6 +111,13 @@ ESP32-S3-DEVKITC-1-N8R8
 0
 44
 44
+FETS
+SOT96P240X100-3N
+<b>SOT23-ren6</b><br>
+
+0
+3
+3
 ICM-20948
 QFN24_3X3X0P9_IVS
 
@@ -118,6 +139,160 @@ ICM-20948
 0
 24
 24
+Jumper
+SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
+solder jumper open
+0
+2
+2
+Jumper
+SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips
+solder jumper open
+0
+2
+2
+Jumper
+SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip
+solder jumper open
+0
+2
+2
+Jumper
+SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip
+solder jumper open
+0
+2
+2
+Jumper
+SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+Jumper
+SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+Jumper
+SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+Jumper
+SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip, labeled with numbers
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip, labeled with numbers
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, open
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open, labeled with numbers
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+5
+3
+Jumper
+SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open, labeled with numbers
+solder jumper open
+0
+5
+3
+LD1117S50CTRlib
+LD1117S50CTR
+
+
+0
+4
+4
 Library
 XCVR_ESP32-S3-DEVKITC-1-N8R2
 
@@ -125,6 +300,27 @@ XCVR_ESP32-S3-DEVKITC-1-N8R2
 0
 44
 44
+Resistor
+R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+ScrewTerminal
+CUI_TB002-500-02BE
+
+
+0
+2
+2
+ScrewTerminal
+TE_282837-2
+
+
+0
+2
+2
 WS2812B
 LED3535
 
@@ -146,6 +342,13 @@ WS2812B-NARROW
 0
 4
 4
+XTConnectors
+XT30UPB-M
+
+
+0
+2
+2
 esp32wroom
 MODULE_DEVKIT_V1_ESP32-WROOM-32
 
