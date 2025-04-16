@@ -6103,7 +6103,7 @@
 		(at 189 71.5)
 		(tags "B2B-XH-A ")
 		(property "Reference" "J4"
-			(at 3.7 -3.05 0)
+			(at -0.21 3.41 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "64da22a1-c88e-4095-9f37-855b87558f81")
@@ -17559,6 +17559,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d94c6160-c9fe-42d4-b4ea-fa89c3aae4cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "88f6cda3-9465-497b-aba2-46c89b5dc886")
 			(effects
 				(font
 					(size 1.27 1.27)
