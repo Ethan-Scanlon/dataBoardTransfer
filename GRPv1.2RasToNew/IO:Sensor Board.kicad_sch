@@ -7082,6 +7082,28 @@
 			)
 		)
 	)
+	(global_label "SERVO_7"
+		(shape input)
+		(at 139.7 283.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "538617ec-8ccf-4e00-a323-7882e82656ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.9099 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5V_a"
 		(shape input)
 		(at 87.63 298.45 180)
@@ -7430,6 +7452,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_b"
+		(shape input)
+		(at 204.47 289.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92dc011b-aa1d-468f-953d-a276b7a4e7f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.4977 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7909,6 +7953,28 @@
 		(uuid "e29d1c89-3c4f-4379-b467-bc395e995071")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 259.9048 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SERVO_7"
+		(shape input)
+		(at 204.47 287.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec6a039e-5322-4385-b192-7524570633ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.2601 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12881,6 +12947,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 204.47 292.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f525b96-b35e-4afc-9678-def419cfb045")
+		(property "Reference" "#PWR060"
+			(at 198.12 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 292.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13666c3f-31ca-4320-add4-13b15f59711a")
+		)
+		(instances
+			(project "IO:Sensor Board"
+				(path "/18c0d8c9-9c3d-4e29-9dd2-642815852ae9"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 158.75 48.26 0)
 		(unit 1)
@@ -13768,6 +13901,81 @@
 			(project "IO:Sensor Board"
 				(path "/18c0d8c9-9c3d-4e29-9dd2-642815852ae9"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-01-01_02-21-05:B3B-XH-A")
+		(at 204.47 287.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2c32f07-89e6-4aa8-81f0-29283dd5bc59")
+		(property "Reference" "J6"
+			(at 218.44 288.2899 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3B-XH-A"
+			(at 218.44 290.8299 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NewJST:CONN_B3B-XH-A_JST"
+			(at 204.47 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "B3B-XH-A"
+			(at 204.47 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ba1cbefa-8bf1-49c4-a97c-c8e3da20cd4e")
+		)
+		(pin "2"
+			(uuid "dabae0a0-401f-4e8b-ab0d-ec813c968aab")
+		)
+		(pin "1"
+			(uuid "6729a260-14bd-42fb-a010-2667d1834954")
+		)
+		(instances
+			(project "IO:Sensor Board"
+				(path "/18c0d8c9-9c3d-4e29-9dd2-642815852ae9"
+					(reference "J6")
 					(unit 1)
 				)
 			)
